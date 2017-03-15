@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+
 public class MainActivity extends AppCompatActivity {
     static {
         System.loadLibrary("native-lib");
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
         TextView tv = (TextView) findViewById(R.id.sample_text);
         tv.setText(stringFromJNI());
+
     }
 
     public native String stringFromJNI();
