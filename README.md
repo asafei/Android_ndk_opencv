@@ -17,4 +17,3 @@ Android下进行ndk开发，配置C++的opencv环境
 
 
 本文参考：http://blog.csdn.net/martin20150405/article/details/53284442
-在做项目时要用NDK调用C++的算法，而该C++的算法有用到了OpenCV的环境。然后算法工程师让我配置Android的openCV环境。
